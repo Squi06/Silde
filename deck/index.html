@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7UP · Brand Deck</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--deep:#06382A;--green:#00A94F;--lime:#D3EE72;--cream:#F7F6EE;--red:#E4002B;--ink:#0E2A22}
+  body{
+    min-height:100vh;background:var(--deep);color:var(--cream);
+    font-family:"Montserrat","Segoe UI",system-ui,sans-serif;
+    display:flex;align-items:center;justify-content:center;padding:40px 24px;overflow-x:hidden;
+  }
+  .wrap{width:min(1080px,100%);position:relative;z-index:2}
+  .kicker{font-size:11px;letter-spacing:.34em;color:var(--lime);font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(64px,13vw,150px);line-height:.86;letter-spacing:-.02em;font-weight:800}
+  h1 .dot{color:var(--red)}
+  .tag{font-size:clamp(20px,2.6vw,30px);font-weight:700;margin-top:30px;line-height:1.2;max-width:620px}
+  .sub{color:#A5C2B4;font-size:15px;line-height:1.6;margin-top:16px;max-width:540px;font-family:"Open Sans",system-ui,sans-serif}
+  .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}
+  a.btn{
+    display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:999px;
+    text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.06em;transition:.18s;
+  }
+  a.primary{background:var(--lime);color:var(--ink)}
+  a.primary:hover{background:#E4FF87;transform:translateY(-2px)}
+  a.ghost{border:1px solid #2E5646;color:var(--cream)}
+  a.ghost:hover{border-color:var(--lime);color:var(--lime)}
+  .meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:44px;padding-top:22px;border-top:1px solid #2E5646;
+        font-size:11px;letter-spacing:.18em;color:#8FB2A3}
+  .disc{position:fixed;right:-14vw;bottom:-30vh;width:60vw;height:60vw;border-radius:50%;
+        background:var(--lime);z-index:0}
+  .reddot{position:fixed;right:34vw;bottom:32vh;width:110px;height:110px;border-radius:50%;
+          background:var(--red);z-index:1}
+  @media(max-width:720px){.disc{right:-40vw;bottom:-24vh;width:110vw;height:110vw}.reddot{width:70px;height:70px;right:8vw;bottom:14vh}}
+</style>
+</head>
+<body>
+  <div class="disc"></div>
+  <div class="reddot"></div>
+  <main class="wrap">
+    <p class="kicker">BRAND DECK · PHÂN TÍCH THƯƠNG HIỆU</p>
+    <h1>7UP<span class="dot">.</span></h1>
+    <p class="tag">Vị chanh trong trẻo.<br>Tinh thần khác biệt.</p>
+    <p class="sub">12 slide về hành trình 95 năm của 7UP: định vị “Uncola”, danh mục sản phẩm,
+      khách hàng mục tiêu, các chiến dịch kinh điển, SWOT và khuyến nghị – kèm ghi chú thuyết trình.</p>
+
+    <div class="cta">
+      <a class="btn primary" href="7up-slides.html">▶ XEM BỘ SLIDE</a>
+      <a class="btn ghost" href="7UP-Brand-Deck.pptx" download>TẢI .PPTX (IMPORT CANVA)</a>
+      <a class="btn ghost" href="preview/contact-sheet.png">XEM TỔNG QUAN 12 SLIDE</a>
+    </div>
+
+    <div class="meta">
+      <span>12 SLIDE · 16:9</span>
+      <span>TIẾNG VIỆT</span>
+      <span>MONTSERRAT + OPEN SANS</span>
+    </div>
+  </main>
+</body>
+</html>
